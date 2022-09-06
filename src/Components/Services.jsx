@@ -1,11 +1,48 @@
 import React from "react";
+import ux from "./image/ux.jpg";
+import webdev from "./image/webdev.jpg";
 
 const Services = () => {
   return (
-    <div className="pt-10 mt-10 bg-medium">
-      <h1 className="text-3xl lg:text-4xl font-bold pb-2 text-dark text-center lg:pb-4 pt-5 lg:pt-0">
+    <div className="py-10 mt-10 bg-medium  text-dark  px-10">
+      <h1 className="text-3xl lg:text-5xl font-bold pb-4 text-center lg:pb-4 pt-5 lg:pt-0">
         Services
       </h1>
+      <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-0">
+        <div className="w-full lg:w-2/4 px-2">
+          <h1 className="text-2xl lg:text-4xl font-bold pb-4">Design</h1>
+          <p className="text-md lg:text-lg  leading-6">
+            I believe designing is not just about beauty and aesthetics, it is
+            about taking the users into considerations while designing. I'm
+            committed to creating smooth user experiences at the same time being
+            fashionable.
+          </p>
+        </div>
+        <div className="w-full lg:w-2/4">
+          <img
+            src={ux}
+            alt=""
+            className="w-60 h-60 lg:w-[20rem] lg:h-[20rem] rounded-full m-auto"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col-reverse mt-5 lg:flex-row items-center gap-4 lg:gap-0">
+        <div className="w-full lg:w-2/4">
+          <img
+            src={webdev}
+            alt=""
+            className="w-60 h-60 lg:w-[20rem] lg:h-[20rem] rounded-full m-auto"
+          />
+        </div>
+        <div className="w-full lg:w-2/4 px-2">
+          <h1 className="text-2xl lg:text-4xl font-bold pb-4">Develope</h1>
+          <p className="text-md lg:text-lg  leading-6">
+            Websites should be fluid while dissipating relevant information. I
+            help to build and develope website with modern web development tools
+            that prioritize search engine optimization (SEO).
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

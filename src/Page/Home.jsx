@@ -1,10 +1,11 @@
 import React from 'react'
-import { Nav } from '../Components'
+import { Nav, Header} from '../Components'
 
 const Home = () => {
   return (
     <>
         <Nav/>
+        <Header/>
     </>
   )
 }

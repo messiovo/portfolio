@@ -1,5 +1,5 @@
 import React from "react";
-import { Nav, Header, SectionText, Services, Projects } from "../Components";
+import { Nav, Header, SectionText, Services, Projects, Skills, Testimonial } from "../Components";
 
 const Home = () => {
   
@@ -10,6 +10,8 @@ const Home = () => {
       <SectionText />
       <Services />
       <Projects/>
+      <Skills/>
+      <Testimonial/>
     </>
   );
 };

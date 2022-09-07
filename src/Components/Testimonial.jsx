@@ -6,25 +6,21 @@ import { useId } from "react";
 const Testimonial = () => {
   const card = [
     {
-      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
+      text: " Her work ethics is highly recommendable.From the time I contacted her to the completion of the project, she exhibited good work ethics. ",
       position: "Okeychuckwu",
       company: "GWC limited",
     },
     {
-      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
+      text: " She was able to bring our idea to live with her design. She built the project within the stipulated time frame and helped with the search engine optimization (SEO).",
       position: "Kevwe, Spoc Manager",
       company: "Emperor Telecoms",
     },
     {
-      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
+      text: " What I loved about this project was the color and fluidity of the website. I really enjoyed working with her. She exhibited a good team spirit. ",
       position: "Nehikhare, Co-founder",
       company: "ChemsCrystals",
     },
-    {
-      text: " quasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beataequasi architecto beatae.totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae ",
-      position: "Abel, Founder",
-      company: "Josephine Foundation",
-    },
+   
   ];
   const id = useId();
   return (
@@ -86,7 +82,7 @@ const Testimonial = () => {
         {card.map((items) => (
           <div
             key={id + items}
-            className=" bg-dark2  rounded-2xl text-md lg:text-lg text-light px-10 p-7 mx-0 md:mx-4 lg:mx-4 flex flex-col gap-3 shadow"
+            className=" bg-dark2 h-60 rounded-2xl text-md lg:text-lg text-light px-10 p-7 mx-0 md:mx-4 lg:mx-4 flex flex-col gap-3 shadow"
           >
             <p className="">{items.text}</p>
             <span className="text-end  font-bold">

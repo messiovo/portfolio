@@ -17,7 +17,7 @@ const Contact = () => {
                 width="25"
                 height="25"
                 viewBox="0 0 22 28"
-                className="fill-dark"
+                className="fill-dark animate-bounce"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -84,8 +84,8 @@ const Contact = () => {
               placeholder="Message"
             ></textarea>
           </div>
-          <Link to="/contact">
-            <button className="rounded-full px-[6.8rem] py-2 mt-4 bg-dark font-bold m-auto block text-light text-sm lg:text-md hover:scale-110 transition-all duration-300 ease-in ">
+          <Link to="/">
+            <button className="rounded-full px-[6.8rem] py-2 mt-4 bg-dark font-bold m-auto block text-light text-sm lg:text-md hover:text-medium  ">
               Submit
             </button>
           </Link>

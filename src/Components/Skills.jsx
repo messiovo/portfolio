@@ -23,7 +23,7 @@ const Skills = () => {
         </div>
         <div className="flex items-center gap-2 lg:ml-[5.5rem] ">
           <span className="w-[17rem] lg:w-[20rem] h-2 bg-light block rounded-full ">
-            <span className="w-[15rem] lg:w-[18rem] h-2 bg-dark block rounded-full moveInLeft"></span>
+            <span className="w-[15rem] lg:w-[18rem] h-2 bg-dark block rounded-full "></span>
           </span>
           <p>90%</p>
         </div>

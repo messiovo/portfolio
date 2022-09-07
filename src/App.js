@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom/index";
-import { Home} from "./Page";
+import { Home } from "./Page";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -15,16 +15,12 @@ function App() {
     });
     Aos.refresh();
   }, []);
-
-function App() {
   return (
-   <div className="overflow-x-hidden">
-   
+    <div className="overflow-x-hidden">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-    
-   </div>
+    </div>
   );
 }
 

@@ -12,7 +12,8 @@ const Skills = () => {
         </div>
         <div className="flex items-center gap-2 ">
           <span className="w-[17rem] lg:w-[20rem] h-2 bg-light block rounded-full">
-            <span className="w-[13rem] lg:w-[16rem] h-2 bg-dark block rounded-full moveInLeft"></span>
+            <span className="w-[13rem] lg:w-[16rem] h-2 bg-dark block rounded-full "
+             ></span>
           </span>
           <p>80%</p>
         </div>

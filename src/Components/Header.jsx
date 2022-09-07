@@ -9,10 +9,10 @@ const Header = () => {
         </div>
         <div className="w-full lg:w-2/4 text-light text-center lg:pr-20">
         <p className="text-md lg:text-lg font-medium pb-2 pt-5 lg:pt-0">Hello, my name is</p>
-          <h1 className="text-3xl lg:text-5xl font-bold pb-2 lg:pb-4 ">Mercy Ogheneovo</h1>
+          <h1 className="text-3xl lg:text-5xl font-bold pb-2 lg:pb-4 " data-aos="fade-left">Mercy Ogheneovo</h1>
           <h3 className="text-lg lg:text-2xl font-semibold pb-2 lg:pb-4">A Front-end developer/UX designer</h3>
           <p className="text-md lg:text-lg font-medium pb-8">I'm enthusiastic and passionate about building websites with awesome user experiences.</p>
-          <button className="py-2 px-10 lg:px-12 bg-medium rounded-full text-dark font-bold text-md lg:text-lg">Download CV</button>
+          <button className="py-2 px-10 lg:px-12 bg-medium rounded-full text-dark font-bold text-md lg:text-lg hover:text-dark2"data-aos="fade-up">Download CV</button>
         </div>
       </section>
     </>

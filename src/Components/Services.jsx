@@ -23,6 +23,7 @@ const Services = () => {
             src={ux}
             alt=""
             className="w-60 h-60 lg:w-[20rem] lg:h-[20rem] rounded-full m-auto"
+            data-aos="zoom-in"
           />
         </div>
       </div>
@@ -32,6 +33,7 @@ const Services = () => {
             src={webdev}
             alt=""
             className="w-60 h-60 lg:w-[20rem] lg:h-[20rem] rounded-full m-auto"
+            data-aos="zoom-in"
           />
         </div>
         <div className="w-full lg:w-2/4 px-2">

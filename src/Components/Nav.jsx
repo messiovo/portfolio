@@ -22,7 +22,7 @@ const Nav = () => {
         !color ? "bg-dark2" : "bg-dark shadow"
       } fixed w-full pt-2 px-6 h-[5rem] z-30 transition-color duration-700 ease-in-out `}
     >
-      <nav className="flex items-center justify-between ">
+      <nav className="flex items-center justify-between">
         <div>
           <a href="#home">
             <span>
@@ -165,7 +165,7 @@ const Nav = () => {
             </a>
           </div>
         </div>
-        <div className="cursor-pointer w-10" onClick={clickHandler}>
+        <div className="cursor-pointer w-10 mr-[7.5rem] lg:mr-0 md:mr-0" onClick={clickHandler}>
           <span
             className={`${!open ? "opacity-1" : "opacity-0"} ${
               !color ? "bg-light" : "bg-medium"

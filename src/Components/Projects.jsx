@@ -98,7 +98,7 @@ const Projects = () => {
        
       </Swiper>
       <div className="relative left-[41rem] bottom-[12rem] z-20 opacity-0 transition-opacity ease-in duration-500 swipe animate-bounce md:opacity-1 sm:opacity-1">
-        <p className="text-sm text-light">swipe</p>
+        <p className="text-sm text-medium">swipe</p>
       </div>
     </div>
   );

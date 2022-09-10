@@ -46,36 +46,36 @@ const Nav = () => {
           } bg-dark text-light flex flex-col items-center justify-around fixed left-0 top-20 h-screen text-center w-full transition-all duration-700 ease-in-out `}
         >
           <ul className="flex flex-col gap-10">
-            <Link to="/">
+            <a href="#home" onClick={() => setOpen(false)}>
               <li className=" text-md lg:text-lg font-semibold hover:text-medium">
                 Home
               </li>
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="#service" onClick={() => setOpen(false)}>
               <li className=" text-md lg:text-lg font-semibold hover:text-medium">
                 Services
               </li>
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="#project" onClick={() => setOpen(false)}>
               <li className=" text-md lg:text-lg font-semibold hover:text-medium">
                 Projects
               </li>
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="#skill" onClick={() => setOpen(false)}>
               <li className=" text-md lg:text-lg font-semibold hover:text-medium">
                 Skills
               </li>
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="#testimonial" onClick={() => setOpen(false)}>
               <li className=" text-md lg:text-lg font-semibold hover:text-medium">
                 Testimonial
               </li>
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="#contact" onClick={() => setOpen(false)}>
               <li className=" text-md lg:text-lg font-semibold hover:text-medium">
                 Contact
               </li>
-            </Link>
+            </a>
           </ul>
           <div className="flex gap-10 mb-20 lg:mb-16 items-center">
             <span>
@@ -92,7 +92,7 @@ const Nav = () => {
                 />
               </svg>
             </span>
-            <Link to="/">
+            <Link to="/" onClick={() => setOpen(false)}>
               <span>
                 <svg
                   width="30"
@@ -109,7 +109,7 @@ const Nav = () => {
                 </svg>
               </span>
             </Link>
-            <Link to="/">
+            <Link to="/"onClick={() => setOpen(false)}>
               <span>
                 <svg
                   width="30"
@@ -128,7 +128,7 @@ const Nav = () => {
                 </svg>
               </span>
             </Link>
-            <Link to="/">
+            <Link to="/" onClick={() => setOpen(false)}>
               <span>
                 <svg
                   width="30"

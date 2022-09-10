@@ -4,7 +4,7 @@ import map from "./image/map.jpg";
 
 const Contact = () => {
   return (
-    <div className="py-10 mt-10 bg-medium  text-dark  px-10">
+    <div className="py-10 mt-10 bg-dark2  text-light  px-10">
       <h1 className="text-3xl lg:text-5xl font-bold pb-4 text-center lg:pb-4 pt-5 lg:pt-0">
         Contact me
       </h1>

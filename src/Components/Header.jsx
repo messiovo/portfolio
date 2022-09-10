@@ -1,5 +1,5 @@
 import React from "react";
-import mercypic from "./image/herodark.jpg";
+import mercypic from "./image/herolight.jpg";
 const Header = () => {
   return (
     <>

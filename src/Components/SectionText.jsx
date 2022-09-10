@@ -31,7 +31,7 @@ const SectionText = () => {
           />
         </h2>
       </div>
-      <div className="m-auto"></div>
+     
     </div>
   );
 };

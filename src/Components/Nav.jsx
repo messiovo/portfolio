@@ -74,7 +74,7 @@ const Nav = () => {
               </li>
             </a>
             <a href="#contact" onClick={() => setOpen(false)}>
-              <li className=" text-md lg:text-lg font-semibold hover:text-medium">
+              <li className=" text-md lg:text-lg font-semibold hover:fill-medium">
                 Contact
               </li>
             </a>
@@ -92,7 +92,7 @@ const Nav = () => {
                 height="28"
                 viewBox="0 0 38 38"
                 fill="none"
-                className="cursor-pointer fill-light hover:text-medium"
+                className="cursor-pointer fill-light hover:fill-medium"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path d="M21.0833 10.6667C25.4646 10.6667 27.3333 12.5354 27.3333 16.9167H31.5C31.5 10.1979 27.8021 6.5 21.0833 6.5V10.6667ZM28.2125 22.0063C27.8122 21.6424 27.2861 21.4484 26.7454 21.4651C26.2047 21.4818 25.6917 21.708 25.3146 22.0958L20.3292 27.2229C19.1292 26.9938 16.7167 26.2417 14.2333 23.7646C11.75 21.2792 10.9979 18.8604 10.775 17.6688L15.8979 12.6813C16.2863 12.3044 16.5128 11.7913 16.5295 11.2504C16.5462 10.7096 16.3519 10.1834 15.9875 9.78334L8.28959 1.31875C7.9251 0.917414 7.41851 0.673972 6.87741 0.640129C6.33631 0.606286 5.80334 0.784709 5.39167 1.1375L0.870841 5.01459C0.510656 5.37608 0.295673 5.85719 0.266674 6.36667C0.235424 6.8875 -0.360409 19.225 9.20626 28.7958C17.5521 37.1396 28.0063 37.75 30.8854 37.75C31.3063 37.75 31.5646 37.7375 31.6333 37.7333C32.1427 37.7048 32.6236 37.4889 32.9833 37.1271L36.8583 32.6042C37.2114 32.1928 37.3902 31.66 37.3567 31.1189C37.3233 30.5778 37.0802 30.071 36.6792 29.7063L28.2125 22.0063Z" />
@@ -110,7 +110,7 @@ const Nav = () => {
                   height="30"
                   viewBox="0 0 50 50"
                   fill="none"
-                  className="cursor-pointer fill-light"
+                  className="cursor-pointer fill-light hover:fill-medium"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M41.6667 12H8.33334C6.04167 12 4.18751 13.875 4.18751 16.1667L4.16667 41.1667C4.16667 43.4583 6.04167 45.3333 8.33334 45.3333H41.6667C43.9583 45.3333 45.8333 43.4583 45.8333 41.1667V16.1667C45.8333 13.875 43.9583 12 41.6667 12ZM41.6667 20.3333L25 30.75L8.33334 20.3333V16.1667L25 26.5833L41.6667 16.1667V20.3333Z" />
@@ -129,7 +129,7 @@ const Nav = () => {
                   height="30"
                   viewBox="0 0 50 50"
                   fill="none"
-                  className="cursor-pointer fill-light"
+                  className="cursor-pointer fill-light hover:fill-medium"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -152,7 +152,7 @@ const Nav = () => {
                   height="30"
                   viewBox="0 0 50 50"
                   fill="none"
-                  className="cursor-pointer fill-light"
+                  className="cursor-pointer fill-light hover:fill-medium"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path

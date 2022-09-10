@@ -3,6 +3,7 @@ import gwc from "./image/gwc.jpg";
 import emperor from "./image/emperor.jpg";
 import "./Project.css";
 import foundation from "./image/foundation.jpg";
+import vetcare from "./image/vetcare.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper";
@@ -25,45 +26,80 @@ const Projects = () => {
           <img src={emperor} alt="" className="w-full h-60" />
 
           <div className=" flex flex-col items-center gap-2">
-            <p className="text-dark2 p-2 text-center">
+            <p className="text-dark2 p-2 text-center font-semibold text-md">
               Telecommunication maintenance service provider
             </p>
+            <a
+              href="https://www.emperortelecoms.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <button className="py-2 px-6 lg:px-8 bg-dark2 rounded-full text-light font-bold text-md  hover:text-medium  ">
+                view site
+              </button>
+            </a>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="bg-dark2 ">
+          <img src={vetcare} alt="" className="w-full h-60" />
 
-            <button className="py-2 px-6 lg:px-8 bg-dark2 rounded-full text-light font-bold text-md  hover:text-medium  ">
-              view site
-            </button>
+          <div className=" flex flex-col items-center gap-2">
+            <p className="text-light p-2 text-center font-semibold text-md">
+              Vertinary care provider
+            </p>
+            <a
+              href="https://staging.pooraiser.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
+                view site
+              </button>
+            </a>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className="bg-light">
+          {" "}
+          <img src={gwc} alt="" className="w-full h-60" />
+          <div className=" flex flex-col items-center gap-2">
+            <p className="text-dark p-2 text-center font-semibold text-md">
+              Study abroad consultation provider
+            </p>
+            <a
+              href="https://www.gwclimited.vercel.app/"
+              target="_blank"
+              rel="noopener"
+            >
+              <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
+                view site
+              </button>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide className="bg-dark2">
           {" "}
-          <img src={gwc} alt="" className="w-full h-60" />
-          <div className=" flex flex-col items-center gap-2">
-            <p className="text-light p-2 text-center">
-              Study abroad consultation provider
-            </p>
-
-            <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
-              view site
-            </button>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="bg-light">
-          {" "}
           <img src={foundation} alt="" className="w-full h-60" />
           <div className=" flex flex-col items-center gap-2">
-            <p className="text-dark p-2 text-center">
+            <p className="text-light p-2 text-center font-semibold text-md">
               Non-profit organization, charity organiztion.
             </p>
-
-            <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
-              view site
-            </button>
+            <a
+              href="https://josephines-foundation.vercel.app"
+              target="_blank"
+              rel="noopener"
+            >
+              <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
+                view site
+              </button>
+            </a>
           </div>
         </SwiperSlide>
+       
       </Swiper>
-      <div className="relative left-[41rem] bottom-[12rem] z-20 opacity-0 transition-opacity ease-in duration-500 swipe animate-bounce">
-      <p className="text-sm text-light">swipe</p>
-    </div>
+      <div className="relative left-[41rem] bottom-[12rem] z-20 opacity-0 transition-opacity ease-in duration-500 swipe animate-bounce md:opacity-1 sm:opacity-1">
+        <p className="text-sm text-light">swipe</p>
+      </div>
     </div>
   );
 };

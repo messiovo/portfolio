@@ -4,7 +4,7 @@ import webdev from "./image/webdev.jpg";
 
 const Services = () => {
   return (
-    <div className="py-10 mt-10 bg-dark2  text-light  px-10" id="service">
+    <div className="py-10 mt-10 bg-dark2  text-light  px-10 overflow-x-hidden" id="service">
       <h1 className="text-3xl lg:text-5xl font-bold pb-4 text-center lg:pb-4 pt-5 lg:pt-0">
         Services
       </h1>

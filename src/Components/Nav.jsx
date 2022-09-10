@@ -20,7 +20,7 @@ const Nav = () => {
     <div
       className={`${
         !color ? "bg-dark2" : "bg-dark shadow"
-      } fixed w-full pt-2 px-6 h-[5rem] z-30 transition-color duration-700 ease-in-out `}
+      } fixed w-full pt-2 px-6 h-[5rem] z-30 transition-color duration-700 ease-in-out overflow-x-hidden `}
     >
       <nav className="flex items-center justify-between">
         <div>

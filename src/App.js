@@ -16,7 +16,7 @@ function App() {
     Aos.refresh();
   }, []);
   return (
-    <div className="overflow-x-hidden">
+    <div >
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

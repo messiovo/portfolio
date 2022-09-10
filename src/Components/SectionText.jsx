@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const SectionText = () => {
   return (
-    <div className="pt-10 px-12">
+    <div className="pt-10 px-12 h-auto">
       <div className=" m-auto text-xl lg:text-2xl text-light font-bold text-center">
         <h2 className="pb-4 lg:pb-8">
           <TypeAnimation
@@ -25,7 +25,7 @@ const SectionText = () => {
               1000,
             ]}
             speed={50} // Custom Speed from 1-99 - Default Speed: 40
-            style={{ fontSize: "2em" }}
+         
             wrapper="span" // Animation will be rendered as a <span>
             repeat={Infinity} // Repeat this Animation Sequence infinitely
           />

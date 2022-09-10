@@ -2,3 +2,6 @@
 .swiper:hover .swipe{
    opacity: 1;
   }
+  .tel:hover .show{
+   opacity: 1;
+  }

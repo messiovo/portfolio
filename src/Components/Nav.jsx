@@ -101,9 +101,7 @@ const Nav = () => {
             </a>
 
             <a
-              href="https://instagram.com/emperortelecoms?igshid=YmMyMTA2M2Y="
-              target="_blank"
-              rel="noopener"
+              href="#contact"
               onClick={() => setOpen(false)}
             >
               <span>
@@ -120,7 +118,7 @@ const Nav = () => {
               </span>
             </a>
             <a
-              href="https://instagram.com/emperortelecoms?igshid=YmMyMTA2M2Y="
+              href="https://github.com/messiovo/"
               target="_blank"
               rel="noopener"
               onClick={() => setOpen(false)}
@@ -143,7 +141,7 @@ const Nav = () => {
               </span>
             </a>
             <a
-              href="https://instagram.com/emperortelecoms?igshid=YmMyMTA2M2Y="
+              href="https://www.linkedin.com/in/mercy-avwenagbiku-6b189224b/"
               target="_blank"
               rel="noopener"
               onClick={() => setOpen(false)}

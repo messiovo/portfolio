@@ -42,12 +42,12 @@ const Nav = () => {
             </span>
           </a>
         </div>
-     
-         
-        
-          <ul  className={`${
+        <div
+          className={`${
             !open ? "scale-y-0" : "scale-y-1"
-          } bg-dark text-light flex flex-col items-center justify-around fixed left-0 top-[4.8rem] bottom-0 h-full overflow-hidden text-center w-full transition-all duration-700 ease-in-out  `}>
+          } bg-dark text-light flex flex-col items-center justify-around fixed left-0 top-[4.8rem] h-screen overflow-hidden text-center w-full transition-all duration-700 ease-in-out  `}
+        >
+          <ul className="flex flex-col gap-10">
             <a href="#home" onClick={() => setOpen(false)}>
               <li className=" text-md lg:text-lg font-semibold hover:text-medium">
                 Home
@@ -78,7 +78,7 @@ const Nav = () => {
                 Contact
               </li>
             </a>
-         
+          </ul>
           <div className="flex gap-10 mb-20 lg:mb-16 items-center">
             <a
               href="tel:+234-706-648-9259"
@@ -161,8 +161,7 @@ const Nav = () => {
               </span>
             </a>
           </div>
-          </ul>
-        
+        </div>
         <div className="cursor-pointer w-10  " onClick={clickHandler}>
           <span
             className={`${!open ? "opacity-1" : "opacity-0"} ${

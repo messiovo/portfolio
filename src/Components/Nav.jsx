@@ -20,9 +20,9 @@ const Nav = () => {
     <div
       className={`${
         !color ? "bg-dark2" : "bg-dark shadow"
-      } fixed w-full pt-2 px-6 h-[5rem] z-30 transition-color duration-700 ease-in-out `}
+      } fixed top-0 w-full pt-2 px-6 h-[5rem] z-30 transition-color duration-700 ease-in-out `}
     >
-      <nav className="flex items-center justify-between">
+      <div className="flex items-center justify-between">
         <div>
           <a href="#home">
             <span>
@@ -45,7 +45,7 @@ const Nav = () => {
         <div
           className={`${
             !open ? "scale-y-0" : "scale-y-1"
-          } bg-dark text-light flex flex-col items-center justify-around fixed left-0 top-20 h-screen text-center w-full transition-all duration-700 ease-in-out `}
+          } bg-dark text-light flex flex-col items-center justify-around fixed left-0 top-[4.8rem] h-screen overflow-hidden text-center w-full transition-all duration-700 ease-in-out  `}
         >
           <ul className="flex flex-col gap-10">
             <a href="#home" onClick={() => setOpen(false)}>
@@ -95,13 +95,12 @@ const Nav = () => {
               >
                 <path d="M21.0833 10.6667C25.4646 10.6667 27.3333 12.5354 27.3333 16.9167H31.5C31.5 10.1979 27.8021 6.5 21.0833 6.5V10.6667ZM28.2125 22.0063C27.8122 21.6424 27.2861 21.4484 26.7454 21.4651C26.2047 21.4818 25.6917 21.708 25.3146 22.0958L20.3292 27.2229C19.1292 26.9938 16.7167 26.2417 14.2333 23.7646C11.75 21.2792 10.9979 18.8604 10.775 17.6688L15.8979 12.6813C16.2863 12.3044 16.5128 11.7913 16.5295 11.2504C16.5462 10.7096 16.3519 10.1834 15.9875 9.78334L8.28959 1.31875C7.9251 0.917414 7.41851 0.673972 6.87741 0.640129C6.33631 0.606286 5.80334 0.784709 5.39167 1.1375L0.870841 5.01459C0.510656 5.37608 0.295673 5.85719 0.266674 6.36667C0.235424 6.8875 -0.360409 19.225 9.20626 28.7958C17.5521 37.1396 28.0063 37.75 30.8854 37.75C31.3063 37.75 31.5646 37.7375 31.6333 37.7333C32.1427 37.7048 32.6236 37.4889 32.9833 37.1271L36.8583 32.6042C37.2114 32.1928 37.3902 31.66 37.3567 31.1189C37.3233 30.5778 37.0802 30.071 36.6792 29.7063L28.2125 22.0063Z" />
               </svg>
-              <p className="show absolute top-[27.2rem] left-[28rem] opacity-0 transition-opacity ease-in duration-500">+234-706-648-9259</p>
+              <p className="show absolute top-[27.2rem] left-[28rem] opacity-0 transition-opacity ease-in duration-500">
+                +234-706-648-9259
+              </p>
             </a>
 
-            <a
-              href="#contact"
-              onClick={() => setOpen(false)}
-            >
+            <a href="#contact" onClick={() => setOpen(false)}>
               <span>
                 <svg
                   width="30"
@@ -163,7 +162,7 @@ const Nav = () => {
             </a>
           </div>
         </div>
-        <div className="cursor-pointer w-10" onClick={clickHandler}>
+        <div className="cursor-pointer w-10  " onClick={clickHandler}>
           <span
             className={`${!open ? "opacity-1" : "opacity-0"} ${
               !color ? "bg-light" : "bg-medium"
@@ -180,7 +179,7 @@ const Nav = () => {
             } w-full h-1  mt-2 block  transition-all duration-700 ease-in-out`}
           ></span>
         </div>
-      </nav>
+      </div>
     </div>
   );
 };

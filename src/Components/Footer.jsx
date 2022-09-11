@@ -88,7 +88,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <span className="flex justify-end pt-10">
+      <span className="flex justify-center pt-16">
         <svg
           width="10"
           height="10"

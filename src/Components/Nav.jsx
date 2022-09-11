@@ -42,6 +42,23 @@ const Nav = () => {
             </span>
           </a>
         </div>
+        <div className="cursor-pointer w-10  " onClick={clickHandler}>
+          <span
+            className={`${!open ? "opacity-1" : "opacity-0"} ${
+              !color ? "bg-light" : "bg-medium"
+            } w-full h-1  block transition-all duration-700 ease-in-out`}
+          ></span>
+          <span
+            className={`${!open ? "rotate-0" : "rotate-45"} ${
+              !color ? "bg-light" : "bg-medium"
+            }  w-full h-1  mt-2 block  transition-all duration-700 ease-in-out`}
+          ></span>
+          <span
+            className={`${!open ? "rotate-0" : "rotate-[-45deg]"} ${
+              !color ? "bg-light" : "bg-medium"
+            } w-full h-1  mt-2 block  transition-all duration-700 ease-in-out`}
+          ></span>
+        </div>
         <div
           className={`${
             !open ? "scale-y-0" : "scale-y-1"
@@ -161,23 +178,6 @@ const Nav = () => {
               </span>
             </a>
           </div>
-        </div>
-        <div className="cursor-pointer w-10  " onClick={clickHandler}>
-          <span
-            className={`${!open ? "opacity-1" : "opacity-0"} ${
-              !color ? "bg-light" : "bg-medium"
-            } w-full h-1  block transition-all duration-700 ease-in-out`}
-          ></span>
-          <span
-            className={`${!open ? "rotate-0" : "rotate-45"} ${
-              !color ? "bg-light" : "bg-medium"
-            }  w-full h-1  mt-2 block  transition-all duration-700 ease-in-out`}
-          ></span>
-          <span
-            className={`${!open ? "rotate-0" : "rotate-[-45deg]"} ${
-              !color ? "bg-light" : "bg-medium"
-            } w-full h-1  mt-2 block  transition-all duration-700 ease-in-out`}
-          ></span>
         </div>
       </div>
     </div>

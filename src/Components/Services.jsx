@@ -10,7 +10,7 @@ const Services = () => {
       </h1>
       <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-0">
         <div className="w-full lg:w-2/4 px-2">
-          <h1 className="text-2xl lg:text-4xl font-bold pb-4">Design</h1>
+          <h1 className="text-xl lg:text-3xl font-bold pb-4">Design</h1>
           <p className="text-md lg:text-lg  leading-6">
             One of my core beliefs is that designing is not just about beauty
             and aesthetics. It is about considering the users while designing.
@@ -37,7 +37,7 @@ const Services = () => {
           />
         </div>
         <div className="w-full lg:w-2/4 px-2">
-          <h1 className="text-2xl lg:text-4xl font-bold pb-4">Develope</h1>
+          <h1 className="text-xl lg:text-3xl font-bold pb-4">Develope</h1>
           <p className="text-md lg:text-lg  leading-6">
             Websites should be fluid while dissipating relevant information. I
             build and develop  websites with modern web development

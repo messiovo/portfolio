@@ -48,7 +48,7 @@ const Skills = () => {
             </span>
             <span>80%</span>
           </div>
-          <div className="border-2 border-medium rounded-lg relative">
+          <div className="border-2 border-medium  rounded-lg relative">
             <div className="relative w-0 rounded-md bg-medium h-2 fle"></div>
           </div>
         </div>
@@ -59,7 +59,7 @@ const Skills = () => {
             </span>
             <span>80%</span>
           </div>
-          <div className="border-2 border-medium rounded-lg relative">
+          <div className="border-2 border-medium rounded-lg  relative">
             <div className="relative w-0 rounded-md bg-medium h-2 fle"></div>
           </div>
         </div>

@@ -82,7 +82,7 @@ const Testimonial = () => {
         {card.map((items) => (
           <div
             key={id + items}
-            className=" bg-dark2 h-60 rounded-2xl text-md lg:text-lg text-light px-10 p-7 mx-0 md:mx-4 lg:mx-4 flex flex-col gap-3 shadow"
+            className=" bg-dark2 h-auto rounded-2xl text-md lg:text-lg text-light px-10 p-7 mx-0 md:mx-4 lg:mx-4 flex flex-col gap-3 shadow"
           >
             <p className="">{items.text}</p>
             <span className="text-end  font-bold">

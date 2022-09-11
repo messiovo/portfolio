@@ -85,7 +85,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <Link to="/">
-            <button className="rounded-full px-[6.8rem] py-2 mt-4 bg-dark font-bold m-auto block text-light text-sm lg:text-md hover:text-medium  ">
+            <button className="rounded-full px-14 py-2 mt-4 bg-dark font-bold m-auto block text-light text-sm lg:text-md hover:text-medium  ">
               Submit
             </button>
           </Link>

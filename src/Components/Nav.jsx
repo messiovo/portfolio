@@ -17,12 +17,12 @@ const Nav = () => {
   window.addEventListener("scroll", changeColor);
 
   return (
-    <div
-      className={`${
-        !color ? "bg-dark2" : "bg-dark shadow"
-      } fixed top-0 w-full pt-2 px-6 h-[5rem] z-30 transition-color duration-700 ease-in-out `}
-    >
-      <div className="flex items-center justify-between">
+    <>
+      <div
+        className={`${
+          !color ? "bg-dark2" : "bg-dark shadow"
+        } fixed top-0 bottom-0 right-0 left-0 w-full pt-2 px-6  h-[5rem] z-30 flex items-center justify-between   transition-color duration-700 ease-in-out `}
+      >
         <div>
           <a href="#home">
             <span>
@@ -42,7 +42,7 @@ const Nav = () => {
             </span>
           </a>
         </div>
-        <div className="cursor-pointer w-10  " onClick={clickHandler}>
+        <div className="cursor-pointer w-10 " onClick={clickHandler}>
           <span
             className={`${!open ? "opacity-1" : "opacity-0"} ${
               !color ? "bg-light" : "bg-medium"
@@ -180,7 +180,7 @@ const Nav = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -12,11 +12,12 @@ function App() {
   useEffect(() => {
     Aos.init({
       duration: 1200,
+      
     });
     Aos.refresh();
   }, []);
   return (
-    <div >
+    <div>
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>

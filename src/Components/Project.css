@@ -6,3 +6,29 @@
    opacity: 1;
    color: #B7BF96;
   }
+  @keyframes com {
+   100%{
+      width: 90%;
+   }
+  }
+  @keyframes per {
+   100%{
+      width: 85%;
+   }
+  }
+  @keyframes fle {
+   100%{
+      width: 80%;
+   }
+  }
+  
+  
+  .com{
+   animation: com 2s forwards ;
+  }
+  .per{
+   animation: per 2s forwards ;
+  }
+  .fle{
+   animation: fle 2s forwards ;
+  }

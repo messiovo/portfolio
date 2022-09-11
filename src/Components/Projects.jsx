@@ -32,7 +32,7 @@ const Projects = () => {
             <a
               href="https://www.emperortelecoms.com/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <button className="py-2 px-6 lg:px-8 bg-dark2 rounded-full text-light font-bold text-md  hover:text-medium  ">
                 view site
@@ -50,7 +50,7 @@ const Projects = () => {
             <a
               href="https://staging.pooraiser.com/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
                 view site
@@ -69,7 +69,7 @@ const Projects = () => {
             <a
               href="https://www.gwclimited.vercel.app/"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
                 view site
@@ -87,7 +87,7 @@ const Projects = () => {
             <a
               href="https://josephines-foundation.vercel.app"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               <button className="py-2 px-6 lg:px-8 bg-dark rounded-full text-light font-bold text-md  hover:text-medium  ">
                 view site

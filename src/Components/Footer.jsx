@@ -4,7 +4,7 @@ import "./Project.css";
 const Footer = () => {
   return (
     <div className="bg-dark px-10 pt-10">
-      <div className="flex flex-col lg:flex-row  gap-4 lg:gap-0">
+      <div className="flex flex-col lg:flex-row  gap-8 lg:gap-0">
         <div className="flex items-center w-full lg:w-2/4 justify-center ">
           <a href="#home">
             <span>

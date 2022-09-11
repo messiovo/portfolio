@@ -22,7 +22,7 @@ const Projects = () => {
         modules={[EffectCards]}
         className="mySwiper w-[240px] h-[380px] "
       >
-        <SwiperSlide className="bg-medium ">
+        <SwiperSlide className="bg-medium rounded-2xl">
           <img src={emperor} alt="" className="w-full h-60" />
 
           <div className=" flex flex-col items-center gap-2">
@@ -40,7 +40,7 @@ const Projects = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-dark2 ">
+        <SwiperSlide className="bg-dark2 rounded-2xl">
           <img src={vetcare} alt="" className="w-full h-60" />
 
           <div className=" flex flex-col items-center gap-2">
@@ -59,7 +59,7 @@ const Projects = () => {
           </div>
         </SwiperSlide>
 
-        <SwiperSlide className="bg-light">
+        <SwiperSlide className="bg-light rounded-2xl">
           {" "}
           <img src={gwc} alt="" className="w-full h-60" />
           <div className=" flex flex-col items-center gap-2">
@@ -77,7 +77,7 @@ const Projects = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="bg-dark2">
+        <SwiperSlide className="bg-dark2 rounded-2xl">
           {" "}
           <img src={foundation} alt="" className="w-full h-60" />
           <div className=" flex flex-col items-center gap-2">
@@ -97,8 +97,8 @@ const Projects = () => {
         </SwiperSlide>
        
       </Swiper>
-      <div className="relative left-[41rem] bottom-[12rem] z-20 opacity-0 transition-opacity ease-in duration-500 swipe animate-bounce md:opacity-1 sm:opacity-1">
-        <p className="text-sm text-medium">swipe</p>
+      <div>
+        <p className="text-sm text-medium text-center pt-5 animate-bounce">swipe</p>
       </div>
     </div>
   );

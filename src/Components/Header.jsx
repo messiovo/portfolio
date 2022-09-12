@@ -2,8 +2,8 @@ import React from "react";
 import mercypic from "./image/herolight.jpg";
 const Header = () => {
   return (
-    <>
-      <section className=" pt-20 px-10 pb-10 flex flex-col lg:flex-row items-center bg-dark2"id="home">
+    
+      <section className="w-screen pt-20 px-10 pb-10 flex flex-col lg:flex-row items-center bg-dark2"id="home">
         <div className="w-full lg:w-2/4 ">
           <img src={mercypic} alt="mercyovo avatar" className="rounded-full w-[80%] m-auto" />
         </div>
@@ -15,7 +15,6 @@ const Header = () => {
           <button className="py-2 px-10 lg:px-12 bg-dark rounded-full text-light font-bold text-md lg:text-lg hover:text-medium  "data-aos="fade-up">Download CV</button>
         </div>
       </section>
-    </>
   );
 };
 

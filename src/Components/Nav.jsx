@@ -17,11 +17,10 @@ const Nav = () => {
   window.addEventListener("scroll", changeColor);
 
   return (
-    <>
       <div
         className={`${
           !color ? "bg-dark2" : "bg-dark shadow"
-        } fixed top-0 bottom-0 right-0 left-0 w-full pt-2 px-6  h-[5rem] z-30 flex items-center justify-between   transition-color duration-700 ease-in-out `}
+        } fixed w-screen pt-2 px-6 z-30 flex items-center justify-between   transition-color duration-700 ease-in-out overflow-x-hidden`}
       >
         <div>
           <a href="#home">
@@ -60,9 +59,9 @@ const Nav = () => {
           ></span>
         </div>
         <div
-          className={`${
-            !open ? "scale-y-0" : "scale-y-1"
-          } bg-dark text-light flex flex-col items-center justify-around fixed left-0 top-[4.8rem] h-screen overflow-hidden text-center w-full transition-all duration-700 ease-in-out  `}
+        className={`${
+            !open ? "scale-y-0" : "scale-y-100"
+          } bg-dark text-light flex flex-col items-center justify-around fixed left-0 top-[4.8rem] h-screen inset-0 text-center transition-all duration-700 ease-in-out  `}
         >
           <ul className="flex flex-col gap-10">
             <a href="#home" onClick={() => setOpen(false)}>
@@ -180,7 +179,6 @@ const Nav = () => {
           </div>
         </div>
       </div>
-    </>
   );
 };
 

@@ -24,7 +24,7 @@ const Testimonial = () => {
   ];
   const id = useId();
   return (
-    <div className="py-10   text-dark  px-10" id="testimonial">
+    <div className="py-10 w-screen text-dark  px-10" id="testimonial">
       <h1 className="text-3xl lg:text-5xl font-bold pb-4 text-center lg:pb-4 pt-5 lg:pt-0">
         Testimonial
       </h1>

@@ -3,8 +3,8 @@ import "./Project.css";
 
 const Skills = () => {
   return (
-    <div className="py-10 mt-10 bg-dark2 text-light  px-10" id="skill">
-      <h1 className="text-3xl lg:text-5xl font-bold pb-10 lg:pb-14 text-center lg:pb-4 pt-5 lg:pt-0">
+    <div className="py-10 w-screen mt-10 bg-dark2 text-light  px-10" id="skill">
+      <h1 className="text-3xl lg:text-5xl font-bold pb-10 lg:pb-14 text-center pt-5 lg:pt-0">
         Personal Skills
       </h1>
       <div className="m-auto w-full lg:w-[35%]">

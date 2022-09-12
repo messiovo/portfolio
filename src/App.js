@@ -1,4 +1,3 @@
-import { Routes, Route } from "react-router-dom/index";
 import { Home } from "./Page";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -17,10 +16,8 @@ function App() {
     Aos.refresh();
   }, []);
   return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+    <div className="overflow-x-hidden bg-dark">
+      <Home />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import map from "./image/map.jpg";
 
 const Contact = () => {
@@ -84,11 +83,11 @@ const Contact = () => {
               placeholder="Message"
             ></textarea>
           </div>
-          <Link to="/">
+          <a href="/">
             <button className="rounded-full px-14 py-2 mt-4 bg-dark font-bold m-auto block text-light text-sm lg:text-md hover:text-medium  ">
               Submit
             </button>
-          </Link>
+          </a>
         </form>
         </div>
         <div className="w-full lg:w-2/4">

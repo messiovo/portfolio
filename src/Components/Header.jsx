@@ -3,7 +3,7 @@ import mercypic from "./image/herolight.jpg";
 const Header = () => {
   return (
     <>
-      <section className=" pt-20 px-10 pb-10 flex flex-col lg:flex-row items-center bg-dark2"id="home">
+      <section className="w-full pt-20 px-10 pb-10 flex flex-col lg:flex-row items-center bg-dark2"id="home">
         <div className="w-full lg:w-2/4 ">
           <img src={mercypic} alt="mercyovo avatar" className="rounded-full w-[80%] m-auto" />
         </div>

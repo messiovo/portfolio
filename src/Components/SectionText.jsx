@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const SectionText = () => {
   return (
-    <div className="pt-10 px-12 h-auto overflow-x-hidden">
+    <div className="pt-10 px-12 h-auto w-full">
       <div className=" m-auto text-xl lg:text-3xl text-light font-bold text-center">
         <h2 className="pb-4 lg:pb-8">
           <TypeAnimation

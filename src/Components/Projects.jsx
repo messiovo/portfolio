@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 const Projects = () => {
   return (
-    <div className="py-10   text-light  px-10 swiper" id="project">
+    <div className="py-10 w-full  text-light  px-10 swiper" id="project">
       <h1 className="text-3xl lg:text-5xl font-bold pb-8  text-center lg:pb-10 pt-12 ">
         My Work
       </h1>

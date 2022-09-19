@@ -21,18 +21,17 @@ const Nav = () => {
       <div
         className={`${
           !color ? "bg-dark2" : "bg-dark shadow"
-        } fixed top-0 w-full pt-2 px-6 z-30 flex items-center justify-between   transition-color duration-700 ease-in-out overflow-x-hidden `}
+        } fixed top-0 w-full mt-0 pt-2 px-6 z-30 flex items-center justify-between   transition-color duration-700 ease-in-out overflow-x-hidden `}
       >
         <div>
           <a href="#home">
             <span>
               <svg
-                width="87"
-                height="68"
+               
                 viewBox="0 0 87 68"
                 className={`${
                   !color ? "fill-light" : "fill-medium"
-                } transition-colors duration-700 ease-in-out`}
+                } transition-colors duration-700 ease-in-out w-16 h-16 lg:w-20 lg:h-20`}
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -42,7 +41,7 @@ const Nav = () => {
             </span>
           </a>
         </div>
-        <div className="cursor-pointer w-10 " onClick={clickHandler}>
+        <div className="cursor-pointer w-8 lg:w-10 " onClick={clickHandler}>
           <span
             className={`${!open ? "opacity-1" : "opacity-0"} ${
               !color ? "bg-light" : "bg-medium"
@@ -62,7 +61,7 @@ const Nav = () => {
         <div
           className={`${
             !open ? "scale-y-0" : "scale-y-100"
-          } bg-dark text-light flex flex-col w-full items-center justify-around fixed bottom-0 right-0 left-0 top-[4.68rem] h-screen overflow-hidden inset-0 text-center  transition-all duration-700 ease-in-out  `}
+          } bg-dark text-light flex flex-col w-full items-center justify-around fixed bottom-0 right-0 left-0 top-[4.45rem] h-screen overflow-hidden inset-0 text-center  transition-all duration-700 ease-in-out  `}
         >
           <ul className="flex flex-col gap-10">
             <a href="#home" onClick={() => setOpen(false)}>

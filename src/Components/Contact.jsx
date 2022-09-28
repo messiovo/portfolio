@@ -1,7 +1,46 @@
 import React from "react";
+import { useState } from "react";
 import map from "./image/map.jpg";
 
 const Contact = () => {
+  const [first_name, setFirstName] = useState("");
+  const [last_name, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [title, setTitle] = useState("");
+  const [error, setError] = useState("");
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!first_name && !last_name && !message && !title && !email) {
+      setError(true);
+      setTimeout(() => {
+        setError(false);
+      }, 3000);
+      return;
+      }
+    const data = {
+      first_name,
+      last_name,
+      message,
+      title,
+      user_email: email,
+      my_email: "messiovo@gmail.com"
+    };
+    const body = JSON.stringify(data);
+    const options = {
+      body,
+      method: "POST",
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/json",
+      },
+    }
+    fetch('https://email-backend.cyclic.app/message/send', options)
+      .then(response => response.json())
+      .then(response => console.log(response))
+      .catch(err => console.error(err));
+  }
+
   return (
     <div className="py-10 mt-10 bg-dark2 w-full text-light  px-10" id="contact">
       <h1 className="text-3xl lg:text-5xl font-bold pb-4 text-center lg:pb-4 pt-5 lg:pt-0">
@@ -50,26 +89,45 @@ const Contact = () => {
           
           </div>
         
-        <form action="">
+          <form onSubmit={handleSubmit}>
           
           <div className="flex flex-col lg:flex-row gap-2  mb-3">
             <input
               type="text"
               className="w-full h-10 px-4 outline-none placeholder-light  bg-dark text-light text-sm lg:text-md font-semibold "
-              placeholder="First name"
+                placeholder="First name"
+                value={first_name}
+                onChange={e => setFirstName(e.target.value)}
+                required
             />
 
             <input
               type="text"
               className="w-full h-10 px-4 outline-none placeholder-light bg-dark text-light text-sm lg:text-md font-semibold  "
-              placeholder="Last name"
-            />
-          </div>
-          <div className="  mb-3">
+                placeholder="Last name"
+                value={last_name}
+                onChange={e => setLastName(e.target.value)}
+                required
+              />
+            </div>
+            <div className="mb-3">
+              <input
+                type="email"
+                className=" w-full h-10 px-4 outline-none placeholder-light bg-dark text-light text-sm lg:text-md font-semibold "
+                placeholder="Email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+          <div className="mb-3">
             <input
               type="text"
               className=" w-full h-10 px-4 outline-none placeholder-light bg-dark text-light text-sm lg:text-md font-semibold "
-              placeholder="Title"
+                placeholder="Title"
+                value={title}
+                onChange={(e) => setTitle(e.target.value)}
+                required
             />
           </div>
 
@@ -80,14 +138,16 @@ const Contact = () => {
               cols="28"
               rows="6"
               className="outline-none bg-dark placeholder-light text-light text-sm lg:text-md py-4 font-semibold px-4 placeholder:"
-              placeholder="Message"
+                placeholder="Message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
             ></textarea>
-          </div>
-          <a href="/">
+            </div>
+            <p className={`transition-colors ${!error ? `text-[transparent]` : `text-light my-3 `}`}>All fields are required</p>
             <button className="rounded-full px-14 py-2 mt-4 bg-dark font-bold m-auto block text-light text-sm lg:text-md hover:text-medium  ">
               Submit
             </button>
-          </a>
         </form>
         </div>
         <div className="w-full lg:w-2/4">

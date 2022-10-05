@@ -1,4 +1,5 @@
 import React from "react";
+import pdf from "../resume.pdf";
 import mercypic from "./image/herolight.jpg";
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
           <h1 className="text-3xl lg:text-5xl font-bold pb-2 lg:pb-4 " data-aos="fade-left">Mercy Ogheneovo</h1>
           <h3 className="text-lg lg:text-2xl font-semibold pb-2 lg:pb-4">A Front-end developer/UI designer</h3>
           <p className="text-md lg:text-lg font-medium pb-8">I am enthusiastic and passionate about building websites with incredible user interface.</p>
-          <button className="py-2 px-10 lg:px-12 bg-dark rounded-full text-light font-bold text-md lg:text-lg hover:text-medium  "data-aos="fade-up">Download CV</button>
+          <button className="py-2 px-10 lg:px-12 bg-dark rounded-full text-light font-bold text-md lg:text-lg hover:text-medium  "data-aos="fade-up"> <a href={pdf} download="resume.pdf">Download CV</a></button>
         </div>
       </section>
     </>
